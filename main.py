@@ -8,6 +8,5 @@ while(True):
     data = input("Add to chain: ")
     chain.pool_add(data)
     chain.mine()
-    if i % 5 == 0:
-        print(chain.blocks[i])
+    print(chain.blocks[i])
     i += 1
